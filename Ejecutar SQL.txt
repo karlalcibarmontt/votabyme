@@ -1,0 +1,1 @@
+CREATE TABLE votacionbyme (email VARCHAR(100), password VARCHAR(100));
